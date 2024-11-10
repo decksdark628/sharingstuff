@@ -1,34 +1,12 @@
 Hola!👋 He creado unos ejercicios como manera de preparación para el examen.
 
-Estan dividos en 3 categorias:
-- **Simples** Nociones básicas
-- **Intermedios** Para hacerte pensar, lo que imagino podría venir en el examen.
-- **Extra** Como retos o curiosidades, probablemente no vengan en el examen
-
 > [!tip] TIP: Puedes usar la tabla de contenidos a la izquierda para moverte rapidamente entre los distintos de niveles (En PC)
-
-> [!warning]- ¿Errores al abrir los cuadros de explicación?
-> Cierra y abre la pestaña que dice "click para ver la respuesta" y se soluciona.
 
 > [!bug]- ¿Tienes comentarios?
 > Si tienes alguna consulta o has encontrado algún error, escribeme por Whatsapp o envia un correo a denuncias@patrickdg.slmail.me (Para evitar "spoilers")
 
-> [!attention]+ Sobre los ejercicios
-> - Asumir siempre:
-> 	- `public class untitled{ }`
-> 	- `public static void main(String[] args){}`
-> - Asumir solo si se utilizan:
-> 	- `import java.util.Random;`
-> 	- `import.java.util.Scanner;`
-> - Cuando la respuesta es _no compila_:
-> 	- Siempre será por solo una razón.
-> 	- Esa razón nunca será:
-> 		- Falta un corchete
-> 		- Falta un punto y coma
-> 		- Una palabra esta mal escrita
-> 			- ejemplo: `pritnln` en vez de `println`
 
-# Programar
+# Para programar
 Click en el titulo del ejercicio para ver mi solución
 
 1. **[[Inversión de números - Solución|Inversión de Números]]** Crea un programa que tome un número entero positivo como entrada y muestre el número en orden inverso. Por ejemplo, si la entrada es 12345, la salida debe ser 54321.
@@ -38,7 +16,7 @@ Click en el titulo del ejercicio para ver mi solución
 3. **Conversor de Temperatura** Crea un programa que convierta temperaturas entre Fahrenheit y Celsius. El programa primero debe preguntar al usuario qué conversión quiere hacer (de F a C o de C a F), luego aceptar el valor de temperatura y mostrar el resultado convertido con un decimal.
 	- Celsius = `(Fahrenheit - 32) × 5/9`
 	- Fahrenheit = `(Celsius × 9/5) + 32`
-4. **[[Picos de un vector - Solución|Picos de un vector]]** Escribe un programa que imprima 20 números aleatorios y encuentre todos los "picos". Un pico es un elemento que es mayor que sus dos vecinos. El primer y último elemento pueden ser picos si son mayores que su único vecino. Por ejemplo:
+4. **[[Picos de un vector - Solución|Picos de un vector]]** Escribe un programa que imprima 20 números aleatorios entre el 1 y el 100 y que encuentre todos los "picos". Un pico es un elemento que es mayor que sus dos vecinos. El primer y último elemento pueden ser picos si son mayores que su único vecino. Por ejemplo:
 	- números: `14 27 29 48 2 32 4 54`
 	- picos: `48 32 54`
 5. **Validador de Contraseñas** Crea un programa que verifique si una contraseña cumple con los siguientes criterios:
@@ -64,7 +42,30 @@ Click en el titulo del ejercicio para ver mi solución
 10. **[[Numeros amigos - Solución|Números amigos]]** Escribir un programa que compruebe si dos números son números amigos o no. Dos números son amigos cuando la suma de los divisores propios de cada uno es igual al otro. (Los divisores propios de un número incluyen la unidad pero no al propio número)
 	- Por ejemplo: los divisores propios de 220 son 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 y 110. La suma de estos números equivale a 284. A su vez, los divisores propios de 284 son 1, 2, 4, 71 y 142. Su suma equivale a 220. Por tanto, 220 y 284 son amigos. 
 	- Asumir que siempre se introducirán 2 números enteros positivos distintos
-# Compila o no compila
+
+# ¿Compila o no compila?
+Estan dividos en 3 categorias:
+- **Simples** Nociones básicas
+- **Intermedios** Para hacerte pensar, lo que imagino podría venir en el examen.
+- **Extra** Como retos o curiosidades, probablemente no vengan en el examen
+
+> [!attention]+ Sobre los ejercicios
+> - Asumir siempre:
+> 	- `public class untitled{ }`
+> 	- `public static void main(String[] args){}`
+> - Asumir solo si se utilizan:
+> 	- `import java.util.Random;`
+> 	- `import.java.util.Scanner;`
+> - Cuando la respuesta es _no compila_:
+> 	- Siempre será por solo una razón.
+> 	- Esa razón nunca será:
+> 		- Falta un corchete
+> 		- Falta un punto y coma
+> 		- Una palabra esta mal escrita
+> 			- ejemplo: `pritnln` en vez de `println`
+
+> [!warning]- ¿Errores al abrir los cuadros de explicación?
+> Cierra y abre la pestaña que dice "click para ver la respuesta" y se soluciona.
 
 ## Ejercicios simples
 ¿Sabes por qué no compilan?
