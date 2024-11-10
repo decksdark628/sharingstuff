@@ -32,7 +32,7 @@ Estan dividos en 3 categorias:
 Click en el titulo del ejercicio para ver mi solución
 
 1. **[[Inversión de números - Solución|Inversión de Números]]** Crea un programa que tome un número entero positivo como entrada y muestre el número en orden inverso. Por ejemplo, si la entrada es 12345, la salida debe ser 54321.
-2. **[[Contador de Vocales|Contador de vocales - Solución]]** Escribe un programa que acepte una cadena y cuente cuántas vocales (a, e, i, o, u) contiene, sin importar si son mayúsculas o minúsculas. El programa debe mostrar la cantidad total de vocales y además cuántas de cada vocal fueron encontradas. Por ejemplo:
+2. **[[Contador de vocales - Solución|Contador de Vocales]]** Escribe un programa que acepte una cadena y cuente cuántas vocales (a, e, i, o, u) contiene, sin importar si son mayúsculas o minúsculas. El programa debe mostrar la cantidad total de vocales y además cuántas de cada vocal fueron encontradas. Por ejemplo:
 	- Vocales: 13
 	- A: 5    E: 4    I: 1    O: 3    U: 0
 3. **Conversor de Temperatura** Crea un programa que convierta temperaturas entre Fahrenheit y Celsius. El programa primero debe preguntar al usuario qué conversión quiere hacer (de F a C o de C a F), luego aceptar el valor de temperatura y mostrar el resultado convertido con un decimal.
