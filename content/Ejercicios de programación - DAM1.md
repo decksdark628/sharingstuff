@@ -34,11 +34,11 @@ Click en el titulo del ejercicio para ver mi solución
 	- `((()))` ⇒ balanceado  
 	- `(()` ⇒ no balanceado  
 	- `)(` ⇒ no balanceado
-8. **Raíz Digital** Crea un programa que calcule la raíz digital de un número. La raíz digital se obtiene sumando los dígitos de un número, y si el resultado tiene más de un dígito, sumando esos dígitos de nuevo hasta obtener un número de un solo dígito. Por ejemplo:
+8. **[[Raiz digital - Solución|Raíz Digital]]** Crea un programa que calcule la raíz digital de un número. La raíz digital se obtiene sumando los dígitos de un número, y si el resultado tiene más de un dígito, sumando esos dígitos de nuevo hasta obtener un número de un solo dígito. Por ejemplo:
 	- 16 ⇒ 1+6 = 7 
 	- 942 ⇒ 9+4+2 = 15 ⇒ 1+5 = 6  
 	- 132189 ⇒ 1+3+2+1+8+9 = 24 ⇒ 2+4 = 6
-9. **Decimal a Números Romanos** Crea un programa que convierta números decimales (1-3999) a números romanos. Recuerda que los números romanos se escriben usando combinaciones de I (1), V (5), X (10), L (50), C (100), D (500) y M (1000), y siguen reglas específicas para la notación sustractiva (como IV para 4 o IX para 9).
+9. **Decimal a Números Romanos** Crea un programa que convierta números en el sistema decimal (1-3999) a números romanos. Recuerda que los números romanos se escriben usando combinaciones de I (1), V (5), X (10), L (50), C (100), D (500) y M (1000), y siguen reglas específicas para la notación sustractiva (como IV para 4 o IX para 9).
 10. **[[Numeros amigos - Solución|Números amigos]]** Escribir un programa que compruebe si dos números son números amigos o no. Dos números son amigos cuando la suma de los divisores propios de cada uno es igual al otro. (Los divisores propios de un número incluyen la unidad pero no al propio número)
 	- Por ejemplo: los divisores propios de 220 son 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 y 110. La suma de estos números equivale a 284. A su vez, los divisores propios de 284 son 1, 2, 4, 71 y 142. Su suma equivale a 220. Por tanto, 220 y 284 son amigos. 
 	- Asumir que siempre se introducirán 2 números enteros positivos distintos
