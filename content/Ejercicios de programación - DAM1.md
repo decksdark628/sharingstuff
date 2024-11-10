@@ -28,6 +28,43 @@ Estan dividos en 3 categorias:
 > 		- Una palabra esta mal escrita
 > 			- ejemplo: `pritnln` en vez de `println`
 
+# Programar
+
+1. **Inversión de Números** Crea un programa que tome un número entero positivo como entrada y muestre el número en orden inverso. Por ejemplo, si la entrada es 12345, la salida debe ser 54321.
+2. **Contador de Vocales** Escribe un programa que acepte una cadena y cuente cuántas vocales (a, e, i, o, u) contiene, sin importar si son mayúsculas o minúsculas. El programa debe mostrar la cantidad total de vocales y además cuántas de cada vocal fueron encontradas. Por ejemplo:
+	- Vocales: 13
+	- A: 5    E: 4    I: 1    O: 3    U: 0
+3. **Conversor de Temperatura** Crea un programa que convierta temperaturas entre Fahrenheit y Celsius. El programa primero debe preguntar al usuario qué conversión quiere hacer (de F a C o de C a F), luego aceptar el valor de temperatura y mostrar el resultado convertido con un decimal.
+	- Celsius = `(Fahrenheit - 32) × 5/9`
+	- Fahrenheit = `(Celsius × 9/5) + 32`
+4. **Picos de un vector** Escribe un programa que imprima 20 números aleatorios y encuentre todos los "picos". Un pico es un elemento que es mayor que sus dos vecinos. El primer y último elemento pueden ser picos si son mayores que su único vecino. Por ejemplo:
+	- números: `14 27 29 48 2 32 4 54
+	- picos: `48 32 54`
+5. **Validador de Contraseñas** Crea un programa que verifique si una contraseña cumple con los siguientes criterios:
+	- Al menos 8 caracteres de largo
+	- Contiene al menos una letra mayúscula
+	- Contiene al menos una letra minúscula
+	- Contiene al menos un número
+	- Contiene al menos uno de estos caracteres especiales: !@#$%^&*
+	- El programa debe indicar al usuario qué criterios no se cumplieron.
+6. **Números a Palabras** Escribe un programa que convierta un número entre 0 y 999 a palabras. Por ejemplo:
+	- `123` debe mostrar `ciento veintitrés`
+	- `506` debe mostrar `quinientos seis`
+7. **Paréntesis Balanceados** Crea un programa que verifique si una cadena tiene paréntesis balanceados. Cada paréntesis de apertura debe tener un paréntesis de cierre correspondiente en el orden correcto. Por ejemplo:
+	- `()` ⇒ balanceado  
+	- `((()))` ⇒ balanceado  
+	- `(()` ⇒ no balanceado  
+	- `)(` ⇒ no balanceado
+8. **Raíz Digital** Crea un programa que calcule la raíz digital de un número. La raíz digital se obtiene sumando los dígitos de un número, y si el resultado tiene más de un dígito, sumando esos dígitos de nuevo hasta obtener un número de un solo dígito. Por ejemplo:
+	- 16 ⇒ 1+6 = 7 
+	- 942 ⇒ 9+4+2 = 15 ⇒ 1+5 = 6  
+	- 132189 ⇒ 1+3+2+1+8+9 = 24 ⇒ 2+4 = 6
+9. **Decimal a Números Romanos** Crea un programa que convierta números decimales (1-3999) a números romanos. Recuerda que los números romanos se escriben usando combinaciones de I (1), V (5), X (10), L (50), C (100), D (500) y M (1000), y siguen reglas específicas para la notación sustractiva (como IV para 4 o IX para 9).
+10. **Números amigos** Escribir un programa que compruebe si dos números son números amigos o no. Dos números son amigos cuando la suma de los divisores propios de cada uno es igual al otro. (Los divisores propios de un número incluyen la unidad pero no al propio número)
+	- Por ejemplo: los divisores propios de 220 son 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 y 110. La suma de estos números equivale a 284. A su vez, los divisores propios de 284 son 1, 2, 4, 71 y 142. Su suma equivale a 220. Por tanto, 220 y 284 son amigos. 
+	- Asumir que siempre se introducirán 2 números enteros positivos distintos
+# Compila o no compila
+
 ## Ejercicios simples
 ¿Sabes por qué no compilan?
 
