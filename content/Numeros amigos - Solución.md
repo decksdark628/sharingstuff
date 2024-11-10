@@ -1,26 +1,37 @@
 ```java
-import java.util.Random;
+import java.util.Scanner;
 
-public class peaks{
+public class numerosamigos{
 	public static void main(String[] args){
-		Random rnd = new Random();
-		int [] vec = new int [20];
-		for (int i = 0; i < vec.length; i++){
-			vec[i] = rnd.nextInt(100)+1;
+		Scanner sc = new Scanner(System.in);
+		int num1, num2, temp;
+		boolean check1 = false, check2 = false;
+
+		System.out.println("Escribe el primer numero");
+		num1 = sc.nextInt();
+		System.out.println("Escribe el segundo numero");
+		num2 = sc.nextInt();
+
+		temp = 1;
+		for(int i = 2; i < num1; i++){
+			if(num1 % i == 0)
+				temp += i;
 		}
-		for (int i = 0; i < vec.length; i++){
-			System.out.print(vec[i] + " ");
+		if (temp == num2)
+			check1 = true;
+		if (check1){
+			temp = 1;
+			for (int i = 2; i < num2; i++){
+				if (num2 % i == 0)
+					temp += i;
+			}
+			if (temp == num1)
+				check2 = true;
 		}
-		
-		System.out.println("\n\npicos:");
-		if (vec[0] > vec[1])
-			System.out.print(vec[0] + " ");
-		for (int i = 1; i < vec.length-1; i++){
-			if (vec[i] > vec[i-1] && vec[i] > vec[i+1])
-				System.out.print(vec[i] + " ");
-		}
-		if (vec[vec.length-1] > vec[vec.length-2])
-			System.out.print(vec[vec.length-1]);
+		if (check1&&check2)
+			System.out.println("Si son amigos");
+		else
+			System.out.println("No son amigos");
 	}
 }
 ```
