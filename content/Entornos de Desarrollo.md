@@ -1,2 +1,2 @@
 
-![Desarrollo de software - Mapa mental.png]
+![[Desarrollo de software - Mapa mental.png]]
